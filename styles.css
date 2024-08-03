@@ -1,70 +1,92 @@
 body {
-    background-color: black;
-    color: green;
-    font-family: sans-serif;
+  background-color: black;
+  color: green;
+  font-family: sans-serif;
 }
 
 header {
-    min-height: 15vh;
+  min-height: 15vh;
 }
 
 img {
-    display: block;
-    margin: 0 auto;
-    width: 40%;
-    min-width: 300px;
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  min-width: 300px;
 }
 
 main {
-    text-align: center;
-    margin: 0px auto;
-    min-height: 65vh;
+  text-align: center;
+  margin: 0px auto;
+  min-height: 65vh;
 }
 
-#learning p a{
-    text-decoration: none;
-    color: #00a200;
-    font-weight: bold;
+#learning p a {
+  text-decoration: none;
+  color: #00a200;
+  font-weight: bold;
 }
 
-#learning p a:hover{
-    color: #00cf00;
+#learning p a:hover {
+  color: #00cf00;
 }
 
 #projects ul {
-    text-align: left;
-    margin: 0 auto;
-    min-width: 100px;
-    width: 70%;
-    list-style-type:none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0;
+  text-align: left;
+  margin: 0 auto;
+  min-width: 100px;
+  width: 70%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 #projects ul li {
-    margin: 0 5px;
-    padding: 10px;
-    font-size:x-large;
+  margin: 0 5px;
+  padding: 10px;
+  font-size: x-large;
 }
 
 #projects ul li:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 #projects ul li a {
-    color: green;
-    text-decoration: none;
+  color: green;
+  text-decoration: none;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 
-footer a{
-    font-size: 40px;
-    min-height: 20vh;
-    color: green;
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+
+footer i {
+  font-size: 40px;
+  color: green;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer div {
+  display: inline-block;
+  border: green 3px solid;
+  border-radius: 2cap;
+  width: 200px;
+  height: 90px;
+  margin: auto;
+}
+
+footer div span {
+  font-size: 20px;
+  color: green;
+}
+
+footer div:hover{
+    color: black;
 }
