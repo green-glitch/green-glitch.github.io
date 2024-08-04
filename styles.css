@@ -10,6 +10,11 @@ h1 {
     font-size: 3em;
 }
 
+img {
+    width: 50vw;
+    min-width: 300px;
+}
+
 h2 {
     font-size: 2em;
 }
@@ -21,6 +26,7 @@ p {
 div {
     font-size: 2em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -28,6 +34,15 @@ a {
     color: green;
     text-decoration: none;
     margin: 6px;
+    width: 300px;
+}
+
+#learning a{
+    font-weight: bold;
+}
+
+#learning a:hover{
+    font-weight: ;
 }
 
 #projects a {
