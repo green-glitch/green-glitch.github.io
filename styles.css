@@ -1,7 +1,6 @@
 body {
     background-color: black;
     color: green;
-    /*font-family: sans-serif;*/
     font-family: monospace;
     margin: 1.27cm;
     text-align: center;
@@ -19,11 +18,24 @@ p {
     font-size: 1.5em;
 }
 
-header {
-    text-align: center;
+div {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
 }
 
 a {
     color: green;
     text-decoration: none;
+    margin: 6px;
+}
+
+#projects a {
+    border: 3px green solid;
+    padding: 4px;
+}
+
+#projects a:hover {
+    background-color: green;
+    color: black;
 }
