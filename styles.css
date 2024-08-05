@@ -1,46 +1,33 @@
 body {
     background-color: black;
     color: green;
-    font-family: sans-serif;
+    font-family: monospace;
+    margin: 1.27cm;
+    text-align: center;
 }
 
-header {
-    min-height: 15vh;
+h1 {
+    font-size: 3em;
 }
 
 img {
-    display: block;
-    margin: 0 auto;
-    width: 40%;
+    width: 50vw;
     min-width: 300px;
 }
 
-main {
-    text-align: center;
-    margin: 0px auto;
-    min-height: 65vh;
+h2 {
+    font-size: 2em;
 }
 
-ul {
-    text-align: left;
-    margin: 0 auto;
-    min-width: 100px;
-    width: 70%;
-    list-style-type:none;
+p {
+    font-size: 1.5em;
+}
+
+div {
+    font-size: 2em;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    padding: 0;
-}
-
-li {
-    margin: 0 5px;
-    padding: 10px;
-    font-size:x-large;
-}
-
-li:hover {
-    background-color: #333;
+    justify-content: center;
 }
 
 a {
@@ -48,11 +35,49 @@ a {
     text-decoration: none;
 }
 
-footer {
-    text-align: center;
+#learning a{
+    font-weight: bold;
+    margin: 6px;
+    width: 300px;
 }
 
-footer a{
-    font-size: 40px;
-    min-height: 20vh;
+#learning a:hover{
+    color: #0f0;
+}
+
+#projects a {
+    border: 3px green solid;
+    padding: 4px;
+    margin: 6px;
+    width: 300px;
+}
+
+#projects a:hover {
+    background-color: green;
+    color: black;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#github-link {
+    font-size: large;
+    width: 200px;
+    display: flex;
+    border: 3px green solid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+i {
+    padding-right: 5px;
+}
+
+#github-link:hover {
+    background-color: green;
+    color: black;
 }
