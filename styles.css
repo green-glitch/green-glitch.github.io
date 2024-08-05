@@ -33,12 +33,12 @@ div {
 a {
     color: green;
     text-decoration: none;
-    margin: 6px;
-    width: 300px;
 }
 
 #learning a{
     font-weight: bold;
+    margin: 6px;
+    width: 300px;
 }
 
 #learning a:hover{
@@ -48,9 +48,36 @@ a {
 #projects a {
     border: 3px green solid;
     padding: 4px;
+    margin: 6px;
+    width: 300px;
 }
 
 #projects a:hover {
+    background-color: green;
+    color: black;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#github-link {
+    font-size: large;
+    width: 200px;
+    display: flex;
+    border: 3px green solid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+i {
+    padding-right: 5px;
+}
+
+#github-link:hover {
     background-color: green;
     color: black;
 }
