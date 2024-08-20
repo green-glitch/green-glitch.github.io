@@ -10,7 +10,7 @@ h1 {
     font-size: 3em;
 }
 
-img {
+img#header {
     width: 50vw;
     min-width: 300px;
 }
@@ -21,6 +21,10 @@ h2 {
 
 p {
     font-size: 1.5em;
+}
+
+img#icons {
+    width: 250px;
 }
 
 div {
