@@ -18,15 +18,6 @@ main {
     width: 90%;
 }
 
-article {
-    height: 75vh;
-}
-
-section {
-    display: block;
-    margin: auto 0;
-}
-
 h1, h2 {
     font-size: max(30px, 3vw);
 }
@@ -37,6 +28,10 @@ p{
 
 #about p{
     margin-left: 50px;
+}
+
+.fa-solid{
+    font-size: 60px;
 }
 
 @media all and (max-width: 450px) {
