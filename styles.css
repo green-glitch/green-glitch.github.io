@@ -1,87 +1,31 @@
 body {
+    font-family: monospace;
     background-color: black;
     color: green;
-    font-family: monospace;
-    margin: 1.27cm;
+}
+
+header {
     text-align: center;
 }
 
-h1 {
-    font-size: 3em;
-}
-
-img#header {
-    width: 50vw;
+header img {
+    width: 40%;
     min-width: 300px;
 }
 
-h2 {
-    font-size: 2em;
+main {
+    margin: 0 auto;
+    width: 90%;
 }
 
-p {
-    font-size: 1.5em;
+section {
+    height: 75vh;
 }
 
-img#icons {
-    width: 250px;
+h1, h2 {
+    font-size: max(30px, 3vw);
 }
 
-div {
-    font-size: 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-a {
-    color: green;
-    text-decoration: none;
-}
-
-#learning a{
-    font-weight: bold;
-    margin: 6px;
-    width: 300px;
-}
-
-#learning a:hover{
-    color: #0f0;
-}
-
-#projects a {
-    border: 3px green solid;
-    padding: 4px;
-    margin: 6px;
-    width: 300px;
-}
-
-#projects a:hover {
-    background-color: green;
-    color: black;
-}
-
-footer {
-    margin-top: 20px;
-}
-
-#github-link {
-    font-size: large;
-    width: 200px;
-    display: flex;
-    border: 3px green solid;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding: 6px;
-    border-radius: 10px;
-}
-
-i {
-    padding-right: 5px;
-}
-
-#github-link:hover {
-    background-color: green;
-    color: black;
+p{
+    font-size: 18px;
 }
