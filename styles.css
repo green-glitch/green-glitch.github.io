@@ -24,9 +24,6 @@ h1, h2 {
 
 p{
     font-size: 25px;
-}
-
-#about p{
     margin-left: 50px;
 }
 
@@ -35,11 +32,9 @@ p{
 }
 
 @media all and (max-width: 450px) {
-    #about section p{
-        margin-left: 0px;
-    }
 
     p {
+        margin-left: 0px;
         font-size: 20px;
     }
 }
