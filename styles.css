@@ -49,6 +49,13 @@ th {
     color: lightgreen;
 }
 
+#project-cards {
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .fa-solid{
     font-size: 60px;
 }
