@@ -5,7 +5,9 @@ body {
 }
 
 header {
-    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    text-align: left;
 }
 
 header img {
@@ -23,18 +25,30 @@ h1, h2 {
 }
 
 p{
-    font-size: 25px;
-    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+th, td {
+    padding: 20px;
+}
+
+th {
+    font-size: 20px;
+}
+
+#fcc-link {
+    color: green;
+}
+
+#fcc-link:hover {
+    color: lightgreen;
 }
 
 .fa-solid{
     font-size: 60px;
-}
-
-@media all and (max-width: 450px) {
-
-    p {
-        margin-left: 0px;
-        font-size: 20px;
-    }
 }
