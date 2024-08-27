@@ -24,6 +24,10 @@ h1, h2 {
     font-size: max(30px, 3vw);
 }
 
+h2 {
+    text-align: center;
+}
+
 p{
     font-size: 20px;
     color: white;
@@ -54,6 +58,47 @@ th {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#project-cards a {
+    border: 3px green solid;
+    padding: 4px;
+    margin: 6px;
+    width: 300px;
+    color: green;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#projects a:hover {
+    background-color: green;
+    color: black;
+}
+
+#github-link {
+    font-size: large;
+    width: 200px;
+    display: flex;
+    border: 3px green solid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+    color: green;
+}
+
+i {
+    padding-right: 5px;
+}
+
+#github-link:hover {
+    background-color: green;
+    color: black;
+}
+
+footer {
+    margin-top: 20px;
 }
 
 .fa-solid{
