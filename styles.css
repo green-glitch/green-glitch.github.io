@@ -101,6 +101,15 @@ i {
     color: black;
 }
 
+#stat {
+    display: block;
+    text-align: center;
+}
+
+#stat img {
+    display: inline-block;
+}
+
 footer {
     margin-top: 20px;
 }
