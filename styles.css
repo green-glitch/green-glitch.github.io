@@ -113,3 +113,7 @@ i {
 footer {
     margin-top: 20px;
 }
+
+.github-stat {
+    width: 400px;
+}
