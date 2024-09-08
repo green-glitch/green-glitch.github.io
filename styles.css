@@ -4,10 +4,17 @@ body {
     color: green;
 }
 
+article {
+    margin-top: 20vh;
+}
+
 header {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     text-align: left;
+    position:fixed;
+    top: 0;
+    background-color: black;
 }
 
 header img {
@@ -115,6 +122,5 @@ footer {
 }
 
 .github-stat {
-    width: 400px;
-    height: 250px;
+    width: 300px;
 }
