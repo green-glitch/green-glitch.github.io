@@ -4,6 +4,10 @@ body {
     color: green;
 }
 
+article {
+    margin-top: 20vh;
+}
+
 header {
     margin: 0 auto;
     width: 100%;
