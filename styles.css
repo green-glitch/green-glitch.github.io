@@ -44,16 +44,9 @@ a {
     text-decoration: none;
 }
 
-th, td {
-    padding: 20px;
-}
-
-th {
-    font-size: 20px;
-}
-
-.author {
-    font-style: italic;
+#learning section img {
+    display: block;
+    margin: auto;
 }
 
 #fcc-link {
