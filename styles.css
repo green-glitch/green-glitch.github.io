@@ -1,9 +1,13 @@
-body {
-    font-family: monospace;
-    background-color: black;
-    color: green;
+:root {
+    --color1:#15161a;
+    --color2: #02d663;
 }
 
+body {
+    font-family: monospace;
+    background-color: var(--color1);
+    color: var(--color2);
+}
 article {
     margin-top: 20vh;
 }
@@ -14,12 +18,17 @@ header {
     text-align: left;
     position:fixed;
     top: 0;
-    background-color: black;
+    background-color: var(--color1);
+    display: flex;
 }
 
 header img {
-    width: 40%;
-    min-width: 300px;
+    width: 8vw;
+    min-width: 100px;
+}
+
+header span {
+    font-size: 100px;
 }
 
 main {
@@ -42,6 +51,7 @@ p {
 
 a {
     text-decoration: none;
+    color: var(--color2);
 }
 
 #learning section img {
@@ -65,31 +75,30 @@ a {
 }
 
 #project-cards a {
-    border: 3px green solid;
+    border: 3px var(--color2) solid;
     padding: 4px;
     margin: 6px;
     width: 300px;
-    color: green;
     border-radius: 15px;
     text-align: center;
 }
 
 #projects a:hover {
-    background-color: green;
-    color: black;
+    background-color: var(--color2);;
+    color: var(--color1);
 }
 
 #github-link {
     font-size: large;
     width: 200px;
     display: flex;
-    border: 3px green solid;
+    border: 3px var(--color2) solid;
     align-items: center;
     justify-content: center;
     margin: auto;
     padding: 6px;
     border-radius: 10px;
-    color: green;
+    color: var(--color2);
 }
 
 i {
@@ -97,8 +106,8 @@ i {
 }
 
 #github-link:hover {
-    background-color: green;
-    color: black;
+    background-color: var(--color2);
+    color: var(--color1);
 }
 
 #stat {
