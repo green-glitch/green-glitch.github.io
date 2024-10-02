@@ -9,7 +9,7 @@ body {
     color: var(--color2);
 }
 article {
-    margin-top: 20vh;
+    margin-top: min(20vw, 200px);
 }
 
 header {
@@ -23,12 +23,12 @@ header {
 }
 
 header img {
-    width: 8vw;
-    min-width: 100px;
+    width: max(6vw, 60px);
+    height: max(6vw, 60px);
 }
 
 header span {
-    font-size: 100px;
+    font-size: max(6vw, 50px);
 }
 
 main {
