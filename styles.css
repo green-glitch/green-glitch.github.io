@@ -1,15 +1,3 @@
-/*
-This font is from:
-    https://fonts.google.com/specimen/Homenaje
-*/
-
-@font-face {
-    font-family: 'Homenaje';
-    src: url('Homenaje-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 :root {
     --color1:#15161a;
     --color2: #02d663;
