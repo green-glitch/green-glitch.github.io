@@ -1,8 +1,3 @@
-# Portfolio Website
-- This is my portfolio website. 
-- It is hosted on Github Pages. 
-- There is [link](https://green-glitch.github.io/)
-
 # GreenGlitch Portfolio - green-glitch.github.io
 
 A personal portfolio website for showcasing projects, learning progress, and GitHub statistics. This repository serves as an online portfolio for **GreenGlitch**, an aspiring web developer documenting the journey into front-end development. The site is developed with HTML, CSS, and JavaScript and includes responsive design principles to ensure an optimal experience across devices.
