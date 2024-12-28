@@ -1,3 +1,8 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
 :root {
     --color1:#15161a;
     --color2: #02d663;
@@ -16,22 +21,40 @@ body {
     font-family: monospace;
 }
 article {
-    margin-top: min(20vw, 200px);
+    padding-top: min(20vw, 200px);
 }
 
 header {
-    margin: 0 auto;
-    width: 100%;
-    text-align: left;
-    position:fixed;
-    top: 0;
+    width: 100vw;
     background-color: var(--color1);
+    position: fixed;
     display: flex;
+    top: 0;
+    left: 0;
 }
 
-header img {
+header div {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+header div img {
     width: max(6vw, 60px);
     height: max(6vw, 60px);
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 30%;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+#navbar a {
+    font-size: 20px;
 }
 
 main {
@@ -91,7 +114,7 @@ a {
     color: var(--color1);
 }
 
-#github-link {
+#profile-link {
     font-size: large;
     width: 200px;
     display: flex;
@@ -108,7 +131,7 @@ i {
     padding-right: 5px;
 }
 
-#github-link:hover {
+#profile-link:hover {
     background-color: var(--color2);
     color: var(--color1);
 }
@@ -128,4 +151,45 @@ footer {
 
 .github-stat {
     width: 300px;
+}
+
+@media only screen and (max-width: 767px){
+    header {
+        display: block;
+        width: 100%;
+    }
+
+    header div#title {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #header-img {
+        width: min(10vw, 100px);
+    }
+
+    header span {
+        font-size: 40px;
+    }
+
+    #navbar {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 0;
+        display: block;
+    }
+
+    #navbar a {
+        display: block;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    section {
+        padding-top: 30px;
+    }
+
+    section div h1 {
+        font-size: 8vh;
+    }
 }
