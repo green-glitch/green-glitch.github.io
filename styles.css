@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #222;
+    background-color: #15151a;
     color: white;
 }
 
 .nav {
-    background-color: #333;
+    background-color: #15151a;
     position: fixed;
     top: 0;
 }
@@ -19,17 +19,42 @@ body {
 }
 
 .nav a:hover {
-    color: white;
+    background-color: lightgreen;
+    color: black;
+}
+
+#title h1{
+    font-family: Homenaje;
+    font-size: max(60px, 10vw);
+    text-align: center;
+}
+
+#title span
+{
+    color: lightgreen;
+}
+
+#logo {
+    min-height: 200px;
+    min-width: 200px;
+    height: 20vw;
+    width: 20vw;
 }
 
 article {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 footer {
-    background-color: #333;
+    background-color: #15151a;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
+}
+
+footer a {
+    color: lightgreen;
+    text-decoration: none;
+    font-size: xx-large;
 }
