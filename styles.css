@@ -5,13 +5,23 @@ body {
     color: white;
 }
 
-.nav {
+h1, h2, h3, h4, h5, h6 {
+    color: lightgreen
+}
+
+.badge {
+    background-color: lightgreen;
+    color: black;
+    padding: 5px;
+}
+
+.navbar {
     background-color: #15151a;
     position: fixed;
     top: 0;
 }
 
-.nav a {
+.navbar a {
     color: lightgreen;
     padding: 14px 20px;
     text-decoration: none;
