@@ -9,12 +9,6 @@ h1, h2, h3, h4, h5, h6 {
     color: lightgreen
 }
 
-.badge {
-    background-color: lightgreen;
-    color: black;
-    padding: 5px;
-}
-
 .navbar {
     background-color: #15151a;
     position: fixed;
@@ -28,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 
-.nav a:hover {
+.navbar a:hover {
     background-color: lightgreen;
     color: black;
 }
@@ -37,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Homenaje;
     font-size: max(60px, 10vw);
     text-align: center;
+    color: white;
 }
 
 #title span
