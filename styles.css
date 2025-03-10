@@ -52,6 +52,7 @@ p{
 
 article {
     min-height: 100vh;
+    margin-bottom: 150px;
 }
 
 footer {
