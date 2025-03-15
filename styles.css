@@ -1,76 +1,34 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #15151a;
+    background-color: #16171b;
     color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: lightgreen
-}
-
-p{
-    font-size: 20px;
-}
-
-.navbar {
-    background-color: #15151a;
+nav {
     position: fixed;
     top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
-.navbar a {
-    color: lightgreen;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.navbar a:hover {
-    background-color: lightgreen;
-    color: black;
-}
-
-#title h1{
+.navbar-brand {
     font-family: Homenaje;
-    font-size: max(60px, 10vw);
-    text-align: center;
     color: white;
+    font-size: 2em;
+    font-weight: bold;
 }
 
-#title span
-{
-    color: lightgreen;
-}
-
-#logo {
-    min-height: 200px;
-    min-width: 200px;
-    height: 20vw;
-    width: 20vw;
-}
-
-article {
-    min-height: 100vh;
-    margin-bottom: 150px;
-}
-
-footer {
-    background-color: #15151a;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-}
-
-footer a {
-    color: lightgreen;
-    text-decoration: none;
-    font-size: xx-large;
-}
-
-.list-group-item {
-    background-color: #15151a;
+.jumbotron {
+    background-color: #16171b;
     color: white;
-    border: none;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.navbar-brand span {
+  color: lightgreen;
+}
+
+i {
+    color: lightgreen;
 }
