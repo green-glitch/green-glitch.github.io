@@ -1,9 +1,31 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
 * {
   --color-dark: #16151a;
+  --color-green: #90ee90;
+}
+
+li:hover {
+  background-color: transparent;
+}
+
+a {
+  color: var(--color-green);
+}
+
+a.link:hover {
+  color: white;
+  background-color: var(--color-dark);
 }
 
 body {
   background-color: var(--color-dark);
+  background-size: cover;
+  background-attachment: fixed;
   color: white;
 }
 
@@ -22,14 +44,15 @@ body {
 }
 
 .navbar-brand span {
-  color: lightgreen;
+  color: #90ee90;
 }
 
 
 .jumbotron {
-  padding: 7rem;
-  background-color: var(--color-dark);
+  padding-top: 30vh;
+  background-color: transparent;
   color: white;
+  min-height: 100vh;
 }
 
 .jumbotron img {
