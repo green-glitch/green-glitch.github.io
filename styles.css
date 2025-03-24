@@ -66,3 +66,16 @@ body {
 .icons {
   width: 300px;
 }
+
+footer {
+  background-color: var(--color-dark);
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  bottom: 0;
+}
+
+footer > a {
+  color: var(--color-green);
+  font-size: x-large;
+}
