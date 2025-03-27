@@ -67,6 +67,18 @@ body {
   width: 300px;
 }
 
+.project {
+  background-color: var(--color-dark);
+  color: white;
+  border-radius: 10px;
+}
+
+.project:hover {
+  background-color: green;
+  transition: 0.5s;
+  
+}
+
 footer {
   background-color: var(--color-dark);
   position: fixed;
