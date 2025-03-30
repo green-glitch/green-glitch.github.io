@@ -16,7 +16,6 @@ The site is divided into the following sections:
 2. **Main Sections**:
    - **About**: A brief introduction to the developer.
    - **Learning**: Technologies being learned, with links and icons.
-   - **GitHub Stats**: GitHub metrics, including language usage and profile rank.
    - **Projects**: Links to project pages showcasing specific work.
 3. **Footer**: Links to the GitHub profile with an icon.
 
@@ -27,7 +26,6 @@ The site is divided into the following sections:
 - **Responsive Design**: Mobile-friendly layout for optimal viewing on various devices.
 - **Custom Typography and Icons**: Uses Google Fonts and Font Awesome icons to enhance design.
 - **Interactive Project Links**: Dynamic buttons and hover effects for project navigation.
-- **GitHub Integration**: Displays GitHub statistics using API-generated images.
 - **Portfolio Links**: Links to other portfolio pages like freeCodeCamp profile.
 
 ---
@@ -38,7 +36,6 @@ The site is divided into the following sections:
 - **CSS3**: For styling, responsive layout, and color themes.
 - **Font Awesome**: Icons for social links and site branding.
 - **Google Fonts**: Homenaje font for unique typography.
-- **GitHub API**: Used to fetch and display dynamic GitHub statistics.
 
 ---
 
